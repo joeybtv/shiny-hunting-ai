@@ -1,0 +1,35 @@
+{
+  "name": "shiny-hunting-ai",
+  "version": "0.0.1",
+  "description": "Application that uses Optical Character Recognition and Object Detection to detect and track shiny hunts through OBS Virtual Camera.",
+  "main": "server.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs": "^4.20.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-webcam": "^7.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead"
+  ],
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glitch-blank-react"
+  },
+  "glitch": {
+    "projectType": "generated_static"
+  }
+}
