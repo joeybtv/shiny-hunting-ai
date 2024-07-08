@@ -8,6 +8,10 @@ export default function Home() {
     <>
       <h1 className="title">{title}</h1>
       <p>{hello}</p>
+      
+      <>
+        
+      </>  
     </>
   );
 }
